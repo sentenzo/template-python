@@ -16,5 +16,5 @@ lint:
 test:
 	poetry run pytest -vsx -m "not slow"
 
-test-slow:
+test-all:
 	poetry run pytest -vsx

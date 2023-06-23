@@ -38,7 +38,7 @@
 
 ## The final checkup
 - [ ] check the linting functionality with `make lint` (no errors should occure)
-- [ ] check tests with `make test`
+- [ ] check tests with `make test-all`
 - [ ] finally check the application itself with one of: 
   - `make`  
   - `make run`
