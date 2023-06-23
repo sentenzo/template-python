@@ -14,4 +14,7 @@ lint:
 	poetry run flake8 ${CODE} --count --select=E9,F63,F7,F82 --show-source --statistics
 
 test:
+	poetry run pytest -vsx -m "not slow"
+
+test-slow:
 	poetry run pytest -vsx
