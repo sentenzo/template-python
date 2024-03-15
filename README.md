@@ -1,6 +1,6 @@
 # Template adaptation checklist
 ## Software requirements
-- [ ] [**python3.11**](https://www.python.org/downloads/)
+- [ ] [**python3.12**](https://www.python.org/downloads/)
 - [ ] **make** (to install it on Windows: [Chocolatey](https://github.com/chocolatey/choco) - [GNU make 4.3](https://community.chocolatey.org/packages/make))
 - [ ] [**Poetry**](https://python-poetry.org/)
 
@@ -14,7 +14,7 @@
 - [ ] (optional) add a `LICENSE` file
 
 ## `poetry`
-- [ ] init your new virtual environment with one of: 
+- [ ] init your new virtual environment with one of:
   - `make init` 
   - `poetry install`
 - [ ] add the dependencies required with:
@@ -42,3 +42,4 @@
 - [ ] finally check the application itself with one of: 
   - `make`  
   - `make run`
+- [ ] if everything works fine, delete all the text in this document and replace it with your app's actual README
