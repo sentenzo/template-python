@@ -1,8 +1,8 @@
 # Template adaptation checklist
 ## Software requirements
-- [ ] [**python3.14**](https://www.python.org/downloads/)
-- [ ] [**just**](https://github.com/casey/just) - a command runner
-- [ ] [**uv**](https://docs.astral.sh/uv/) - a Python package- and project-manager
+- [ ] [**just**](https://github.com/casey/just) — a command runner
+- [ ] [**uv**](https://docs.astral.sh/uv/) — a Python package- and project-manager
+- [ ] [**python3.14**](https://www.python.org/downloads/) (can be installed via `uv`)
 
 
 ## `justfile`
